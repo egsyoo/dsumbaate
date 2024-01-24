@@ -1,0 +1,143 @@
+.navbar-collapse.collapse.show {
+    color: black;
+}
+
+.navbar{
+    padding-left: 2%;
+    padding-right: 5%;
+    color: blue;
+}
+.navbar .collapse{
+    position: relative;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.navbar .collapse ::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: rgb(255, 145, 0);
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.navbar .collapse a:hover{
+    color: rgb(255, 145, 0);
+    
+}
+.beranda{
+    width: 100%;
+  height: 100vh;
+  background: url("../img/home-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.beranda h1{
+    padding-top: 25%;
+}
+span{
+    color: rgb(255, 145, 0);    
+}
+
+
+.beranda h4 {
+    color: #fff;
+}
+
+.tentang{
+   background-image: url(../img/about.jpg);
+   background-size: cover;
+   position: relative;
+   padding: 0;
+}
+.tentang img{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.tentang h3{
+    padding-top: 20%;
+    color: rgb(255, 145, 0);
+}
+.tentang p{
+    color: #fff;
+}
+
+#menu{
+    background-color: rgb(24, 24, 24);
+    color:  #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-bottom: 15%;
+}
+#menu .card{
+    color: rgb(0, 0, 0);
+}
+
+.spa{
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 12%;
+    color: #fff;
+}
+.spa h3{
+    color: rgb(255, 145, 0);
+}
+.spa p{
+    color: #fff;
+}
+#galeri{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    background-color: rgb(54, 54, 54);
+    color:#fff
+}
+#galeri .table{
+    padding-left: 20%;
+}
+.chef{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    background-color: rgb(4, 0, 29);
+    color: #fff;
+}
+.chef h4{
+    color: rgb(255, 145, 0);
+}
+.chef .member{
+    text-align: center;
+}
+#form{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: black;
+    color: #fff;
+}
+.form h4{
+    color:rgb(255, 145, 0);
+}
+.kontak{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background-color: rgb(10, 5, 15);
+    color: #fff;
+}
+#form{
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+#footer{
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#footer .copyright{
+   color: #fff;
+}
